@@ -1,0 +1,124 @@
+body{
+font-family: 'Kanit',serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+color: #000000;
+margin: 0;
+}
+.container{
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.header{    
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: lowercase;
+}
+.header2{
+font-weight: 500;
+font-size: 48px;
+line-height: 120px;
+}
+.NewsList{
+    width: 100%;
+    display: flex;
+}
+.NewsList:not(:nth-child(5)){
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.News1, .News2, .News3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.News1, .News2, .News3:not(first-child){
+    padding-top: 10%;
+}
+.top-row, .top-row2, .top-row3{
+font-family: 'Inter',serif;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+display: flex;
+}
+.top-text-info1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-info1, .text-info2, .text-info3{
+    padding-right: 10%;
+}
+.Description, .Description2, .Description3{
+    font-family: 'Inter',serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+width: 80%;
+}   
+.footer, .footer2, .footer3{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+padding-top: 10%;
+font-family: 'Inter',serif;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+padding-bottom: 5%;
+}
+.footer-text, .footer-text2, .footer-text3{
+    display: flex;
+    flex-direction: row;
+}
+a{
+    text-decoration: none;
+    opacity: 0.5;
+    color: inherit; 
+}
+.block-img{
+    padding-right: 10%;
+}
+.img1{
+    display: flex;
+    align-items: center;
+}
+.btn-bot{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 4px 14px;
+gap: 8px;
+
+background: linear-gradient(0deg, rgba(8, 30, 52, 0.12), rgba(8, 30, 52, 0.12)), #FFFBFE;
+border-radius: 100px;
+
+}
+.text-top{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.foot-samyi-end{
+    padding-right: 10%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+
+}
+.foot2{
+    opacity: 0.5;
+}

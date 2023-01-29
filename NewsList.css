@@ -1,0 +1,78 @@
+body{
+    font-family: 'Kanit',serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    margin: 0;
+    }
+    .container{
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .left-img{
+        padding-bottom: 10%;
+    }
+    .header{
+        width: 100%;
+        font-family: 'Kanit',serif;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+text-transform: lowercase;
+padding-bottom: 10%;
+
+    }
+    .InfoTop{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .top-row{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 1%;
+    }
+    .img-socials{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 14px;
+    }
+    .container a{
+        text-decoration: none !important;
+        color: inherit; 
+        opacity: 0.5;
+    }
+    .Description{
+        padding-top: 5%;
+
+    }
+    .img-description{
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .actions-Bottom{
+        padding-top: 3%;
+        padding-bottom: 3%;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    }
+    .foot-samyi-end{
+        padding-top: 15%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        flex-direction: column;
+    }
+    .foot2{
+        opacity: 0.5;
+    }
